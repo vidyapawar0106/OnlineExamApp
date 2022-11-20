@@ -1,0 +1,7 @@
+<h1>Student Registration form....</h1>
+<form [formGroup]="formref" (ngSubmit)="register()">
+    Student name<input type="text" formControlName="sname"/><br>
+    Student Roll no<input type="text" formControlName="sroll"/><br>
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+</form>

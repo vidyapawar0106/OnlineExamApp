@@ -1,0 +1,20 @@
+<div>
+    <h1>welcome {{student}}</h1>
+    
+    <input type="button" value="Start Exam" (click)="startexam()" [hidden]="f1"/>
+    <div *ngIf="f2">
+    <h1>Answer the following:-</h1>
+    <div *ngFor="let q of question" style="font-size:larger;">
+        {{q.qid}} ) {{q.question}}
+    
+    <div>
+        <input type="radio" name={{q.qid}} value={{q.a}} (click)="ans(q.qid,q.a)"/>{{q.a}}
+        <input type="radio" name={{q.qid}} value={{q.b}} (click)="ans(q.qid,q.b)"/>{{q.b}}
+    </div><br/>
+    
+    </div>
+   
+   
+</div>
+<input type="button" value="submit" style="font-size: large;" (click)="submitExam()" [hidden]="b1">
+

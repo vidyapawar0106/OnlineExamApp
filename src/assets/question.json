@@ -1,0 +1,16 @@
+{
+"questions":[
+    {"qid":1,"question":"what does the motto'Satyameva Jayate' on the emblem of India mean?","a":"Truth Alone Triumphs","b":"Keep Peace Always"},
+    {"qid":2,"question":"which is the highest award a person can win in India?","a":"Padma Bhushan","b":"Bharat Ratna"},
+    {"qid":3,"question":"Where does the river Ganga originate?","a":"Gangani","b":"Gangotri"},
+    {"qid":4,"question":"which is the southernmost point of India","a":"Kanyakumari","b":"Indira Point"},
+    {"qid":5,"question":"Which city will you be in if you are standing on Marina beach?","a":"Chennai","b":"Bangluru"},
+    {"qid":6,"question":"After whom is the city of Gandhinagar in Gujrat named?","a":"Jawaharlal Nehru","b":"Mahatma Gandhi"},
+    {"qid":7,"question":"Which state is known for its backwater?","a":"Kerala","b":"Karnataka"},
+    
+    {"qid":8,"question":"Which river in India known as the'Sorrow of Bengal'?","a":"Narmada","b":"Damodar"},
+    {"qid":9,"question":"when is 'Hindi Diwas celebrated in India'?","a":"14th september","b":"2nd october"},
+    {"qid":10,"question":"How many countries share their borders with India","a":"Seven","b":"Twelve"}
+
+]
+}

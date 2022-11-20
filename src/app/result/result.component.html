@@ -1,0 +1,35 @@
+<div>
+   <h1> {{msg}} </h1>
+   <h4>you can review your exam below...!</h4>
+   <input type="button" value="Review Exam" (click)="reviewexam()" [hidden]="f1"/>
+   <div *ngFor="let q of question; let i=index; " style="font-size:larger">
+      {{q.qid}} ) {{q.question}} 
+      
+      
+  <div *ngFor="let a of answer;let i1=index; ">
+
+   
+   <div *ngIf="i==i1 i1+1">
+   <div *ngIf="a.ans==q.a">
+     <span style="background-color: lightgreen;font-weight: bold;">a){{q.a}}</span>  &#160;
+     <span>b){{q.b}} </span></div>
+     <div *ngIf="a.ans!=q.a">
+      <span>a){{q.a}}</span> &#160;
+      <span style="background-color: lightgreen;font-weight: bold;">b){{q.b}}</span></div><br/>
+      <br/>
+
+      
+</div>
+     </div> 
+  
+   </div>
+  
+   </div>
+  
+  
+ 
+ 
+
+
+
+
